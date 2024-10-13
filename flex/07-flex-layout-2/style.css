@@ -19,14 +19,17 @@ body {
 }
 
 .footer {
-  height: 72px;
+  height: 50px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
-  width: 300px;
-  min-width: 140px;
+  width: 250px;
+  min-width: 200px;
   background: royalblue;
   box-sizing: border-box;
   padding: 10px;
@@ -36,12 +39,16 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  flex-basis: 200px;
+  padding: 10px;
 }
 
 .card-div{
   display: flex;
-  flex-wrap: wrap;
-  flex-basis: 200px;
+  flex-direction: row;
+  flex-wrap:wrap;
+  gap: 10px;
+  margin: 10px;
 }
 
 .content-part{
